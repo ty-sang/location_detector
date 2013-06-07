@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25418C3217619D0A0032106B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25418C3117619D0A0032106B /* UIKit.framework */; };
+		25418C3417619D0A0032106B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25418C3317619D0A0032106B /* Foundation.framework */; };
+		25418C3617619D0A0032106B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25418C3517619D0A0032106B /* CoreGraphics.framework */; };
+		25418C3C17619D0A0032106B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25418C3A17619D0A0032106B /* InfoPlist.strings */; };
+		25418C3E17619D0A0032106B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25418C3D17619D0A0032106B /* main.m */; };
+		25418C4217619D0A0032106B /* PD_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25418C4117619D0A0032106B /* PD_AppDelegate.m */; };
+		25418C4417619D0A0032106B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25418C4317619D0A0032106B /* Default.png */; };
+		25418C4617619D0A0032106B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25418C4517619D0A0032106B /* Default@2x.png */; };
+		25418C4817619D0A0032106B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25418C4717619D0A0032106B /* Default-568h@2x.png */; };
+		25418C4B17619D0A0032106B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25418C4917619D0A0032106B /* MainStoryboard.storyboard */; };
+		25418C4E17619D0A0032106B /* PD_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25418C4D17619D0A0032106B /* PD_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25418C2E17619D0A0032106B /* PositionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25418C3117619D0A0032106B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25418C3317619D0A0032106B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25418C3517619D0A0032106B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25418C3917619D0A0032106B /* PositionDetector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PositionDetector-Info.plist"; sourceTree = "<group>"; };
+		25418C3B17619D0A0032106B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25418C3D17619D0A0032106B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25418C3F17619D0A0032106B /* PositionDetector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PositionDetector-Prefix.pch"; sourceTree = "<group>"; };
+		25418C4017619D0A0032106B /* PD_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PD_AppDelegate.h; sourceTree = "<group>"; };
+		25418C4117619D0A0032106B /* PD_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PD_AppDelegate.m; sourceTree = "<group>"; };
+		25418C4317619D0A0032106B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25418C4517619D0A0032106B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25418C4717619D0A0032106B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25418C4A17619D0A0032106B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25418C4C17619D0A0032106B /* PD_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PD_ViewController.h; sourceTree = "<group>"; };
+		25418C4D17619D0A0032106B /* PD_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PD_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25418C2B17619D0A0032106B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25418C3217619D0A0032106B /* UIKit.framework in Frameworks */,
+				25418C3417619D0A0032106B /* Foundation.framework in Frameworks */,
+				25418C3617619D0A0032106B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25418C2517619D0A0032106B = {
+			isa = PBXGroup;
+			children = (
+				25418C3717619D0A0032106B /* PositionDetector */,
+				25418C3017619D0A0032106B /* Frameworks */,
+				25418C2F17619D0A0032106B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25418C2F17619D0A0032106B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25418C2E17619D0A0032106B /* PositionDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25418C3017619D0A0032106B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25418C3117619D0A0032106B /* UIKit.framework */,
+				25418C3317619D0A0032106B /* Foundation.framework */,
+				25418C3517619D0A0032106B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25418C3717619D0A0032106B /* PositionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				25418C4017619D0A0032106B /* PD_AppDelegate.h */,
+				25418C4117619D0A0032106B /* PD_AppDelegate.m */,
+				25418C4917619D0A0032106B /* MainStoryboard.storyboard */,
+				25418C4C17619D0A0032106B /* PD_ViewController.h */,
+				25418C4D17619D0A0032106B /* PD_ViewController.m */,
+				25418C3817619D0A0032106B /* Supporting Files */,
+			);
+			path = PositionDetector;
+			sourceTree = "<group>";
+		};
+		25418C3817619D0A0032106B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25418C3917619D0A0032106B /* PositionDetector-Info.plist */,
+				25418C3A17619D0A0032106B /* InfoPlist.strings */,
+				25418C3D17619D0A0032106B /* main.m */,
+				25418C3F17619D0A0032106B /* PositionDetector-Prefix.pch */,
+				25418C4317619D0A0032106B /* Default.png */,
+				25418C4517619D0A0032106B /* Default@2x.png */,
+				25418C4717619D0A0032106B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25418C2D17619D0A0032106B /* PositionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25418C5117619D0A0032106B /* Build configuration list for PBXNativeTarget "PositionDetector" */;
+			buildPhases = (
+				25418C2A17619D0A0032106B /* Sources */,
+				25418C2B17619D0A0032106B /* Frameworks */,
+				25418C2C17619D0A0032106B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PositionDetector;
+			productName = PositionDetector;
+			productReference = 25418C2E17619D0A0032106B /* PositionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25418C2617619D0A0032106B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD_;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ty;
+			};
+			buildConfigurationList = 25418C2917619D0A0032106B /* Build configuration list for PBXProject "PositionDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25418C2517619D0A0032106B;
+			productRefGroup = 25418C2F17619D0A0032106B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25418C2D17619D0A0032106B /* PositionDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25418C2C17619D0A0032106B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25418C3C17619D0A0032106B /* InfoPlist.strings in Resources */,
+				25418C4417619D0A0032106B /* Default.png in Resources */,
+				25418C4617619D0A0032106B /* Default@2x.png in Resources */,
+				25418C4817619D0A0032106B /* Default-568h@2x.png in Resources */,
+				25418C4B17619D0A0032106B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25418C2A17619D0A0032106B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25418C3E17619D0A0032106B /* main.m in Sources */,
+				25418C4217619D0A0032106B /* PD_AppDelegate.m in Sources */,
+				25418C4E17619D0A0032106B /* PD_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25418C3A17619D0A0032106B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25418C3B17619D0A0032106B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25418C4917619D0A0032106B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25418C4A17619D0A0032106B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25418C4F17619D0A0032106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25418C5017619D0A0032106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25418C5217619D0A0032106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PositionDetector/PositionDetector-Prefix.pch";
+				INFOPLIST_FILE = "PositionDetector/PositionDetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25418C5317619D0A0032106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PositionDetector/PositionDetector-Prefix.pch";
+				INFOPLIST_FILE = "PositionDetector/PositionDetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25418C2917619D0A0032106B /* Build configuration list for PBXProject "PositionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25418C4F17619D0A0032106B /* Debug */,
+				25418C5017619D0A0032106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25418C5117619D0A0032106B /* Build configuration list for PBXNativeTarget "PositionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25418C5217619D0A0032106B /* Debug */,
+				25418C5317619D0A0032106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25418C2617619D0A0032106B /* Project object */;
+}
